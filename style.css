@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+}
+
+.right-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-fields {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 5px 5px gray;
+}
+
+.form-row {
+    display: flex;
+    gap: 20em;
+    margin-top: 0.5em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    margin-bottom: 2rem;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.h3-text {
+    background-color: gray;
+    margin-top: 10rem;
+}
+
+input[id="password"]:invalid {
+    border: 1px solid #ef0909;
+}
+
+input[id="password"]:valid{
+    border: 1px solid #41f015;
+}
+
+input[id="confirmPassword"]:invalid {
+    border: 1px solid #ef0909;
+}
+
+input[id="confirmPassword"]:valid {
+    border: 1px solid #41f015;
+}
+
+button {
+  background-color: green;
+  color: white;
+  padding: 1em;
+  border-radius: 10px;
+}
